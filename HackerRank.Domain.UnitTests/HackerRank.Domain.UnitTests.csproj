@@ -24,8 +24,4 @@
     <ProjectReference Include="..\HackerRank.Domain\HackerRank.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Dictionaries\" />
-  </ItemGroup>
-
 </Project>
