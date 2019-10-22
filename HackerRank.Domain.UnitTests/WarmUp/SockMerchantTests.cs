@@ -9,7 +9,7 @@ namespace HackerRank.Domain.UnitTests.WarmUp
 		[Theory]
 		[InlineData(new[] { 10, 20, 20, 10, 10, 30, 50, 10, 20 }, 3)]
 		[InlineData(new[] { 1, 1, 3, 1, 2, 1, 3, 3, 3, 3 }, 4)]
-		public void T1(int[] ar, int expected)
+		public void T(int[] ar, int expected)
 		{
 			// act
 			var result = SockMerchant.SockMer(ar);
